@@ -11,11 +11,11 @@ printOutput = True
 printTrees = True
 
 start = time.time()
-fileName = "Victor/mainFile.csv"
+fileName = "mainFile.csv"
 with open(fileName, "r") as currentFile:
     dataList = list(csv.reader(currentFile, delimiter=","))[1:]
 
-newFile = "Victor/calculatedResults.csv"
+newFile = "calculatedResults.csv"
 with open(newFile, "w", encoding="utf-8", newline="") as nextFile:
     writer = csv.writer(nextFile, delimiter=",")
     header = ["Material", "Primary Requirement", "Level", "Child Component", "Secondary Requirement"]
