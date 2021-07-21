@@ -1,1 +1,1 @@
-# Components-Calculator
+# Components Calculator
